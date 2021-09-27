@@ -1,0 +1,17 @@
+.card {
+  width: 100%;
+  padding: 20px;
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+    display: inline-block;
+    color: var(--dt);
+  }
+  .image {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}

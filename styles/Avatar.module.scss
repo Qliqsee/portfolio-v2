@@ -1,0 +1,36 @@
+$dWidth: 969px;
+$width: 968px;
+$xsWidth: 300px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+@mixin xsMobile {
+  @media (max-width: 300px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$dWidth}) {
+    @content;
+  }
+}
+.avatar {
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--lc);
+  background-size: cover;
+  border: 2px black;
+  background-image: url('/hacker.png');
+  height: 300px;
+  width: 300px;
+
+  @include mobile {
+    height: 90px;
+    width: 100px;
+  }
+}

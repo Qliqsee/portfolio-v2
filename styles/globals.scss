@@ -1,0 +1,74 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// general
+:root {
+  --skin: #28284a;
+  --dt: #c4d29a;
+  --lt: #eee;
+  --button: #eaedf3;
+  --bt: #f5f5f5;
+  --os: 1px 1px 1px 1px #292933;
+  --lc: #eeecec;
+  --bt: whitesmoke;
+  --dark: #d2d4df;
+  --random: #d9dbd1;
+  --is: #312e5e;
+  --hover: blue;
+  --alt: white;
+
+  --dWidth: 969px;
+  --width: 968px;
+  --xsWidth: 300px;
+}
+body {
+  min-height: 100vh;
+}
+#__next {
+  min-height: 100vh;
+}
+.body {
+  min-height: 100vh;
+  background-color: var(--skin);
+}
+
+.body.light {
+  --skin: whitesmoke;
+  --dt: #28284a;
+  --lt: #777778;
+  --button: #1e608b;
+  --os: 1px 1px 1px 1px #d0d0d0;
+  --lc: #eeecec;
+  --bt: whitesmoke;
+  --dark: #000;
+  --random: #5b6337;
+  --is: #f3f3f5;
+  --hover: #a7a7b4;
+  --alt: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
