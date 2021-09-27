@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react/cjs/react.development';
 import styles from '../../styles/About.module.scss';
 import Button from '../../components/Button';
+import Image from 'next/image';
 
 export default function About() {
   const [tab, setTab] = useState(true);
@@ -15,7 +16,9 @@ export default function About() {
 
       <div className={styles.wrapper}>
         <div className={styles.left}>
-          <img src='/hacker.png' alt='avatar' />
+          <span>
+            <Image src='/hacker.png' alt='ss' width={300} height={400} />
+          </span>
         </div>
 
         <div className={styles.right}>

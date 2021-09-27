@@ -3,6 +3,7 @@ import Card from '../../components/Card';
 import Touch from '../../components/Touch';
 import Thumbnail from '../../components/Thumbnail';
 import Button from '../../components/Button';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Portfolio({}) {
@@ -13,7 +14,7 @@ export default function Portfolio({}) {
       <div className={styles.cards}>
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
@@ -37,7 +38,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
@@ -61,7 +62,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
@@ -85,7 +86,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
@@ -109,7 +110,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
@@ -133,7 +134,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <img className={styles.image} src='/img1.jpg' alt='img' />
+            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
           </div>
 
           <div className={styles.info}>
