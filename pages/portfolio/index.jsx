@@ -150,7 +150,7 @@ export default function Portfolio({}) {
                 <span>Category:</span> Website
               </div>
               <div className={styles.detailsitem}>
-                <Button href='/contact'>Vist Website</Button>
+                <Button href='/contact'>Vist Website </Button>
               </div>
             </div>
           </div>
