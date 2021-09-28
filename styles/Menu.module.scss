@@ -101,11 +101,11 @@ $xsWidth: 300px;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 0%;
-  min-height: 0%;
+  width: 100%;
+  min-height: 100%;
   background-color: var(--skin);
   transition: opacity 1s ease-in-out;
-  visibility: visible;
+  visibility: hidden;
   opacity: 0;
   z-index: 100;
 }
