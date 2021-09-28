@@ -31,7 +31,7 @@ export default function Home() {
           <div className={styles.intro}>
             <div className={styles.small}>
               Hello,
-              <div className={styles.big}>I&apos;m Agboola Iyanu</div>
+              <div className={styles.big}>I&apos;m Agboola Iyanu 😀</div>
             </div>
             <div className={styles.medium} ref={roleRef}></div>
             <div className={styles.more}>
