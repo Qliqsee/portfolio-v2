@@ -30,8 +30,8 @@ export default function Home() {
         <section className={styles.section2}>
           <div className={styles.intro}>
             <div className={styles.small}>
-              Hello,
-              <div className={styles.big}>I&apos;m Agboola Iyanu 😀</div>
+              Hello 👋,
+              <div className={styles.big}>I&apos;m Agboola Iyanu</div>
             </div>
             <div className={styles.medium} ref={roleRef}></div>
             <div className={styles.more}>
