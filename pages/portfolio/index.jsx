@@ -14,7 +14,7 @@ export default function Portfolio({}) {
       <div className={styles.cards}>
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -38,7 +38,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -62,7 +62,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -86,7 +86,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -110,7 +110,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -134,7 +134,7 @@ export default function Portfolio({}) {
 
         <div className={styles.carditems}>
           <div className={styles.image}>
-            <Image src='/img1.jpg' alt='ss' width={900} height={400} />
+            <img className={styles.image} src='/img1.jpg' alt='img' />
           </div>
 
           <div className={styles.info}>
@@ -150,7 +150,7 @@ export default function Portfolio({}) {
                 <span>Category:</span> Website
               </div>
               <div className={styles.detailsitem}>
-                <Button href='/contact'>Vist Website </Button>
+                <Button href='/contact'>Vist Website</Button>
               </div>
             </div>
           </div>
