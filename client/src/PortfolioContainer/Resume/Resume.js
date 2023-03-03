@@ -87,8 +87,8 @@ const Resume = (props) => {
       links: (
         <Links
           links={[
-            { url: "https://github.com/Qliqsee/market", icon: "github" },
-            { url: "https://market-sqaure.netlify.app/", icon: "eye" },
+            { url: "https://github.com/Qliqsee/Interstellar-Prime", icon: "github" },
+            { url: "http://54.173.10.64:8000/", icon: "eye" },
           ]}
         />
       ),
@@ -108,8 +108,8 @@ const Resume = (props) => {
       links: (
         <Links
           links={[
-            { url: "https://github.com/Qliqsee/Interstellar-Prime", icon: "github" },
-            { url: "http://54.173.10.64:8000/", icon: "eye" },
+            { url: "https://github.com/Qliqsee/market", icon: "github" },
+            { url: "https://market-sqaure.netlify.app/", icon: "eye" },
           ]}
         />
       ),
