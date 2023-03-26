@@ -31,7 +31,7 @@ export default function Profile() {
           </div>
           <div className="profile-details-role">
             <span className="profile-role-tagline">
-              A Fullstack engineer passionate about 🏗️ scalability, 🔄 automation, and 😍 user experience. I have 5 years of solid
+              A Fullstack engineer passionate about 🏗️ scalability, 🔄 automation, and 😍 user experience. I have 4 years of solid
               experience with main focus on React JS.
             </span>
           </div>

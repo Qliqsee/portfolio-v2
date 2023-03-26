@@ -13,7 +13,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I'm a full-stack engineer with for years of professional experience working on freelance and startup projects. I'm passionate about building scalable high quality software, and automation. Having worked across the entire development cycle, I specialize on the frontend.",
+      "I'm a full-stack engineer with four years of professional experience working on freelance and startup projects. I'm passionate about building scalable high quality software, and automation. Having worked across the entire development cycle, I specialize on the frontend.",
     highlights: {
       bullets: [
         "Full Stack web development",
