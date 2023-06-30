@@ -27,6 +27,7 @@
   transform: rotate(360deg);
   color: aliceblue;
 }
+
 .btn-scroll i {
   -webkit-animation: mover 0.5s infinite alternate;
   animation: mover 0.5s infinite alternate;
