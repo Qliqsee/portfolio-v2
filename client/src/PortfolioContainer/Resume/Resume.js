@@ -121,17 +121,19 @@ const Resume = (props) => {
       <ResumeHeading
         heading={"Federal University Of Technology, Minna"}
         subHeading={"BACHELOR OF ELECTRIC AND COMPUTER ENGINEERING TECHNOLOGY"}
-        fromDate={"2014"}
-        toDate={"2019"}
+        // fromDate={"2014"}
+        // toDate={"2019"}
       />
 
       <ResumeHeading
         heading={"National Youth Service Corps"}
         subHeading={"VDT Communications. Osogbo, Osun State"}
-        fromDate={"2020"}
-        toDate={"2021"}
+        // fromDate={"2020"}
+        // toDate={"2021"}
       />
-      <ResumeHeading heading={"High School"} subHeading={"Goshen Christian Academy"} fromDate={"2008"} toDate={"2014"} />
+      <ResumeHeading heading={"High School"} subHeading={"Goshen Christian Academy"} 
+      // fromDate={"2008"} toDate={"2014"}
+       />
     </div>,
 
     /* WORK EXPERIENCE */
@@ -140,8 +142,8 @@ const Resume = (props) => {
         <ResumeHeading
           heading={"Swiftcore Technologies"}
           subHeading={"Full Stack Web Developer"}
-          fromDate={"2020"}
-          toDate={"Present"}
+          // fromDate={"2020"}
+          // toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">Here are are some of my projects with swiftcore technologies</span>
@@ -153,7 +155,7 @@ const Resume = (props) => {
           </span>
           <br />
           <span className="resume-description-text">
-            - VibeWith(MVP): Responsible for building a progressive web application to help people connect in circles and spaces.{" "}
+            - VibeWith: Responsible for building a progressive web application to help people connect in circles and spaces.{" "}
             <a href="https://app.vibewith.co/">See here</a>
           </span>
           <br />

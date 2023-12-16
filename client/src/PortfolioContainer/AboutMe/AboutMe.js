@@ -13,19 +13,17 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I'm a full-stack engineer with four years of professional experience working on freelance and startup projects. I'm passionate about building scalable high quality software, and automation. Having worked across the entire development cycle, I specialize on the frontend.",
+      "I am eager to apply my expertise in building fast, testable applications and creating visually appealing digital experiences",
     highlights: {
       bullets: [
-        "Full Stack web development",
+        "UI/UX",
+        "Component based architecture",
+        "Testing",
+        "Agile Development",
         "PWA",
         "CI/CD",
-        "Agile Development",
-        "Testing",
-        "Interactive Front End as per the design",
         "Building REST APIs",
         "Database Management",
-        "Micro Frontend",
-        "Micro Services",
       ],
       heading: "Here are a Few Highlights:",
     },

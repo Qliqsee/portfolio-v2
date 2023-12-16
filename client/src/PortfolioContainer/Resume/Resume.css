@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: fit-content;
-  margin: 120px 0;
+  margin: 40px 0;
 }
 .link-icons {
   background: #ff5823;
@@ -95,7 +95,7 @@
 .bullet-label {
   font-size: 14px;
   white-space: nowrap;
-  font-family: "Poppins SemiBold";
+  font-family: 'Poppins SemiBold';
   color: #fff;
 }
 
@@ -139,7 +139,7 @@
 .resume-main-heading span {
   color: var(--dark-orange);
   font-size: 16px;
-  font-family: "Poppins SemiBold";
+  font-family: 'Poppins SemiBold';
 }
 
 .experience-description {
@@ -158,7 +158,7 @@
 
 .resume-sub-heading {
   font-size: 14px;
-  font-family: "Poppins SemiBold";
+  font-family: 'Poppins SemiBold';
   color: var(--black);
   margin: 10px 0 0 0;
   color: #fff;
@@ -211,7 +211,7 @@
 }
 
 .skill-parent span {
-  font-family: "Poppins SemiBold";
+  font-family: 'Poppins SemiBold';
   font-size: 13px;
   color: #fff;
 }
